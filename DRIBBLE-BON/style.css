@@ -1,0 +1,227 @@
+
+body {
+    font-family: 'Oswald', sans-serif;
+
+
+}
+
+.menu{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.contener{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 20%);
+    z-index: -1;
+    background-color: #0056b3;
+}
+.trapeze {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    margin-top: 20px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid blue; /* Ajustez la couleur et la hauteur du trapèze selon vos besoins */
+    border-top-right-radius: 20px; /* Ajustez le rayon du coin supérieur droit */
+  }
+
+.navbar ul{
+    /* float: right; */
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+.navbar li {
+    margin: 0 20px; 
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 150px;
+    margin-top: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+.section {  
+    color: #fff; 
+    padding: 40px; 
+    text-align: left; 
+}
+
+.polygon h6.normal {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.navbar section {
+    background-color: orchid;
+}
+
+.section h6.small {
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+}
+
+
+.section p.text {
+    font-size: 18px; 
+    line-height: 1.4; 
+    margin-top: 10px;
+}
+
+
+.section p.text b {
+    font-weight: bold; 
+    color: black; 
+}
+
+button {
+    padding: 10px 20px;
+    background-color:orangered;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 7px; 
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s; 
+    margin-right: 50px;
+}
+
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+
+button:active {
+    background-color: #004080; 
+}
+
+
+.text {
+    color: black; 
+    font-size: 24px;
+    padding: 20px 0; 
+    margin-left: 30px;
+}
+.bgrd {
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    width: calc(33.33% - 20px); 
+    margin-right: 20px; 
+}
+
+.navbar li section {
+    background-color: violet;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.search-bar input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.search-icon {
+    width: 34px;
+    height: 34px; 
+    margin-left: 40px;
+}
+
+.search-icon button[type="submit"]:hover {
+    background-color: orangered;
+}
+
+.sites {
+
+    display: flex;
+
+    justify-content: space-between;
+    margin: 0 auto;
+    
+
+}
+
+.images {
+    text-align: center;
+    margin: 0 10px;
+    flex-basis: calc(18% -20px);
+    
+}
+
+.images img {
+    max-width: 100%;
+}
+
+
+.sites .images div {
+    margin-top: 10px;
+}
+
+
+.sites .images p.bigger {
+    font-weight: bold;
+    color: #0074d9;
+}
+
+.small {
+    font-size: 10px;
+    color: #909497;
+  }
+  .normal {
+    font-size: 15px;
+    color: #797D7F;
+
+  }
+  .bigger {
+    font-size: 20px;
+    color: blue;
+  }
+  
+
+footer {
+   margin-top: 200px;
+}
